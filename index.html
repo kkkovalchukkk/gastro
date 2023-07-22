@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="./img/logos/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Gastro</title>
+</head>
+
+<body class="body">
+  <header class="header">
+    <div class="container header__container">
+      <a href="https://gastroindustry.ru/" class="header__logo">
+        <picture>
+          <source srcset="img/logos/logo.webp" type="image/webp" />
+          <img src="img/logos/logo.png" alt="" class="header__logo-img" />
+        </picture>
+      </a>
+      <nav class="header__nav" id="burger-menu">
+        <a href="https://gastroindustry.ru/#tickets" class="btn-stroke header__btn header__btn--games-page">Забрать
+          билет</a>
+        <!-- <div class="header__switch" id="partners-nav">
+                        <a href="partners.html" class="header__switch-link header__switch-link--partners">
+                            Партнёрам
+                        </a>
+                        <button class="btn header__switch-btn"></button>
+                        <a href="index.html" class="header__switch-link header__switch-link--users">Посетителям </a>
+                    </div> -->
+        <ul class="list header__nav-list">
+          <li>
+            <a href="https://gastroindustry.ru/#about">О фестивале</a>
+          </li>
+          <li>
+            <a href="https://gastroindustry.ru/#program">Программа</a>
+          </li>
+          <li>
+            <a href="https://gastroindustry.ru/#contacts">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn header__burger-btn" id="burger-btn">
+        <span class="header__burger-btn-line"></span>
+        <span class="header__burger-btn-line"></span>
+        <span class="header__burger-btn-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="promo">
+      <div class="container promo__container">
+        <h1 class="promo__title">
+          Попробуйте активности фестиваля прямо сейчас – покорите Север!
+        </h1>
+        <div class="promo__text-content">
+          <p class="promo__text">
+            Выбирайте любую из трёх игр и зарабатывайте баллы. Игроки,
+            набравшие больше всех баллов, получат
+            <span class="promo__text--bold"> призы фестиваля </span>.
+          </p>
+          <p class="promo__text">
+            В каждой игре отдельный рейтинг: вы можете стать победителем сразу
+            трёх игр.
+            <span class="promo__text--bold">
+              Количество попыток не ограничено.
+            </span>
+          </p>
+        </div>
+        <p class="promo__subtext">Вперёд – к игре!</p>
+      </div>
+    </section>
+    <section class="game game--active game1">
+      <div class="game__wrapper game__wrapper--1">
+        <img src="./img/pictures/game1-background.jpg" alt="" class="game__wrapper-bg" />
+      </div>
+      <iframe class="game__iframe game__iframe--1" data-src="./festGame1_33/index.html" src="./festGame1_33/index.html"
+        frameborder="0"></iframe>
+    </section>
+    <section class="game game2">
+      <div class="game__wrapper game__wrapper--2">
+        <img src="./img/pictures/game2-background.jpg" alt="" class="game__wrapper-bg" />
+      </div>
+      <iframe class="game__iframe game__iframe--2" data-src="./festGame2_2_15/index.html" frameborder="0"></iframe>
+    </section>
+    <section class="game game3">
+      <div class="game__wrapper game__wrapper--3">
+        <img src="./img/pictures/game3-background.jpg" alt="" class="game__wrapper-bg" />
+      </div>
+      <iframe class="game__iframe game__iframe--3" data-src="./festGame3_17/index.html" frameborder="0"></iframe>
+    </section>
+    <section class="game-contacts">
+      <div class="container game-contacts__container">
+        <h2 class="title-2 game-contacts__title">
+          Подписывайтесь на нас в социальных сетях
+        </h2>
+        <p class="game-contacts__text">
+          Там новости, конкурсы и полезные посты для любителей Севера
+        </p>
+        <ul class="list socials">
+          <li>
+            <a href="https://vk.com/gastroindustry" class="socials__btn">
+              <svg class="socials__icon">
+                <use xlink:href="img/icons/icons.svg#icon-vk"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href=" https://t.me/gastroindustry_bot" class="socials__btn">
+              <svg class="socials__icon">
+                <use xlink:href="img/icons/icons.svg#icon-tg"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__left">
+        <ul class="list footer__sites">
+          <li class="footer__sites-item">
+            <div class="footer__sites-parent-img">
+              <picture>
+                <source srcset="img/logos/nornikel.webp" type="image/webp" />
+                <img src="img/logos/nornikel.png" alt="Норникель" class="footer__sites-img" />
+              </picture>
+            </div>
+            <a href="https://www.nornickel.ru/" class="footer__sites-btn">nornickel.ru</a>
+          </li>
+          <li class="footer__sites-item">
+            <div class="footer__sites-parent-img">
+              <picture>
+                <source srcset="img/logos/school.webp" type="image/webp" />
+                <img src="img/logos/school.png" alt="Школа" class="footer__sites-img footer__sites-img--school" />
+              </picture>
+            </div>
+            <a href="https://the2school.com/" class="footer__sites-btn">the2school.com</a>
+          </li>
+        </ul>
+        <a href="https://gastroindustry.ru/ " class="footer__logo">
+          <picture>
+            <source srcset="img/logos/logo.webp" type="image/webp" />
+            <img src="img/logos/logo.png" alt="Логотип" class="footer__logo-img" />
+          </picture>
+        </a>
+      </div>
+      <div class="footer__info">
+        <ul class="list footer__info-list">
+          <li>
+            <a href="https://gastroindustry.ru/%D0%94%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%20%D0%BE%D1%84%D0%B5%D1%80%D1%82%D1%8B.pdf "
+              target="_blank" class="footer__info-btn">Условия публичной оферты</a>
+          </li>
+          <li>
+            <a href="https://gastroindustry.ru/%D0%A0%D0%B5%D0%BA%D0%B2%D0%B8%D0%B7%D0%B8%D1%82%D1%8B%20%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D0%BA%D0%B0%20%D1%81%D0%BE%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F.pdf "
+              download class="footer__info-btn">Реквизиты компании</a>
+          </li>
+        </ul>
+        <p class="footer__info-content">© GASTRO INDUSTRY FESTIVAL, 2023</p>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/app.min.js"></script>
+  <script src="./js/games.js"></script>
+</body>
+
+</html>
